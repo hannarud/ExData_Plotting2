@@ -1,13 +1,8 @@
-# History files
+# R Workspace Specific
+.RData
 .Rhistory
-.Rapp.history
 
-# Example code in package build process
-*-Ex.R
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# Data files
+exdata_data_NEI_data.zip
+Source_Classification_Code.rds
+summarySCC_PM25.rds
