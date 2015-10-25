@@ -59,6 +59,6 @@ g <- ggplot(NEI.1.final, aes(x = year, y = Emissions))
 g + geom_line(aes(color = fips), size = 2) + facet_grid(fips ~ ., scales="free", space = "free") +
     labs(title = "Emissions from motor vehicle sources", x = "Year", y = "Emissions")
 
-# Emisiions decreased for all types except the POINT but not monotonically
+# Los Angeles has greater changes over time in motor vehicle emissions
 
 dev.off()
