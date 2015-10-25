@@ -48,6 +48,6 @@ with(NEI.1.final, plot(x = year, y = Emissions,
                        xlab = "Year", ylab = "Emissions",
                        col = "green", type = "l", lwd = 3))
 
-# Emissions from coal combustion-related sources decreased!
+# Emissions from motor vehicle sources in Baltimore decreased!
 
 dev.off()
